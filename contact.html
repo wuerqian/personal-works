@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" >
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+
+	<header>
+		<input type="checkbox" id="navctrl">
+		<label for="navctrl" id="hb"><span class="line"></span><span class="menu">MENU</span></label>
+
+		<nav>
+			<h1><a href="index.html"><img src="image/logo.png" alt="fruits & vegetables Love"></a></h1>
+			<ul class="nav_item">
+				<li><a href="about.html">關於我們<br><span>About Us</span></a></li>
+				<li><a href="menu.html">美食饗宴<br><span>Gourmet Feast</span></a></li>
+				<li><a href="news.html">優惠活動<br><span>Latest News</span></a></li>
+				<li><a href="contact.html">聯絡我們<br><span>Contact Us</span></a></li>
+			</ul>
+		</nav>
+	</header>
+
+
+	<div class="space"></div>
+
+	<div class="contact">
+		<div class="contact_contain">
+			<h1>聯絡我們<span>Contact</span></h1>
+			<p>親愛的訪客您好：</p>
+			<p>我們很重視每位尊客的意見，請您填寫正確連絡資料，我們會盡速回覆。</p>
+			<p>如有日期、人數，請註明於內容中，謝謝您的指教。</p>
+			<form action="#" method="post" class="contact_form clear_fix">
+	
+				<div>
+					<label for="name">姓名</label>
+					<input type="text" class="form-control" id="name" placeholder="請輸入您的姓名">
+				</div>
+				<div>
+					<label for="guest">客戶別</label>
+					<select class="form-control" id="guest">
+						<option value="customer" disabled selected>選擇諮詢主題</option>
+						<option value="customer">訪客留言</option>
+						<option value="marketing">行銷異業合作</option>
+						<option value="supplier">食材及非食材供應</option>
+					</select> 
+				</div>
+				<div>
+					<label for="email">信箱</label>
+					<input type="email" class="form-control" id="email" placeholder="請輸入您的信箱">
+				</div>
+				<div>
+					<label for="tel">電話</label>
+					<input type="tel" class="form-control" id="tel" placeholder="請輸入數字(例:0987654321)">
+				</div>
+				<div>
+					<label for="message">您的留言</label>
+					<textarea class="form-control" id="message" placeholder="在此留下您的建議"></textarea> 
+				</div>
+				<div>
+					<label for="verification">驗證碼</label>
+					<input type="text" class="form-control" id="verification" placeholder="請輸入右側驗證碼"></input> 
+					<ul class="verification_box">
+						<li>5</li>
+						<li>6</li>
+						<li>8</li>
+						<li>3</li>
+						<li>2</li>
+					</ul>
+				</div>
+
+				<input type="submit" value="送出" class="submit">
+			</form>	
+		</div>
+		<div class="contact_information">
+			<h1>聯絡我們<span>Contact</span></h1>
+			<p>
+				TEL：02-3864-6879<br/>
+				FAX：02-2749-2863<br/>
+				營業時間：9：00～21：30<br/>	
+			</p>
+			<p>
+				<a href="https://www.google.com.tw/maps?q=桃園市中央區中央路999號">桃園市中央區中央路999號</a>
+			</p>
+			<div id="map"></div>
+		</div>
+	</div>
+
+	<footer class="footer">
+		<div class="footer_contain">
+			<div class="footer_item">
+				<h2>美食饗宴　Gourmet Feast</h2>
+				<ul>
+					<li><a href="menu.html#Japanese">和風日式　Japanese</a></li>
+					<li><a href="menu.html#Hong_Kong">厚功港式　Hong Kong</a></li>
+					<li><a href="menu.html#Western">經典西式　Western</a></li>
+					<li><a href="menu.html#Chinese">道地中式　Chinese</a></li>
+					<li><a href="menu.html#dessert">世界甜點　Dessert</a></li>
+				</ul>
+			</div>
+			<div class="footer_item">
+				<h2>優惠活動　Latest News</h2>
+				<ul>
+					<li><a href="news.html">優惠活動　Latest News</a></li>
+					<li><a href="news.html">訊息公告　Information</a></li>
+				</ul>
+			</div>
+			<div class="footer_item">
+				<h2>營業時間　Business Hours</h2>
+				<ul>
+					<li>午餐　Lunch：11:30~14:00</li>
+					<li>下午茶　Afternoon：14:30~16:30</li>
+					<li>晚餐　Dinner：17:30~21:30</li>
+				</ul>
+			</div>
+			<div class="footer_item">
+				<h2>線上訂位　Online Reservation</h2>
+				<ul>
+					<li><a href="javascript:void(0)">國內訂位　Permanent Resident</a></li>
+					<li><a href="javascript:void(0)">外國旅客訂位　Foreign Reservation</a></li>
+				</ul>
+			</div>
+			<div class="footer_item">
+				<h2>TEL：02-3864-6879　<br class="br">FAX：02-2749-2863</h2>
+				<ul>
+					<li><a href="mailto:pulaureda@gmail.com">服務信箱　pulaureda@gmail.com</a></li>
+					<li><a href="https://www.google.com.tw/maps?q=桃園市中央區中央路999號">桃園市中央區中央路999號</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="copyright">Copyright © 2018 Wuerchan　À POINT STEAK & BAR. All rights reserved.</div>
+	</footer>
+
+    <script type="text/javascript">
+
+		var map;
+		function initMap() {
+		  var myLatLng = {lat: 24.966275, lng: 121.187408}; //指定經緯度
+
+		  var map = new google.maps.Map(document.getElementById('map'), { //產生Map物件,建立地圖
+		    center: myLatLng, //指定地圖中心。 
+  	        zoom: 15 //指定縮放層級。 
+		  });
+
+		  var marker = new google.maps.Marker({ 
+		    position: myLatLng, //指定positon 位置
+		    map: map, //標示地圖
+		    title: 'fruits & vegetables Love' //說明文字
+		  });
+		}
+
+    </script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDy7niYo3hKVoLoxDPCbZqRZWG_x7jml4k&callback=initMap">
+    </script>
+
+</body>
+</html>
